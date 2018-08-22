@@ -13,3 +13,7 @@ C++ Intel Threading Building Blocks https://www.threadingbuildingblocks.org, Par
 Java: Runnable-ök és Executor service
 
 .NET: Task Parallel Library https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-parallel-library-tpl
+
+## Feladatok beadása
+
+Összes feladat megoldása, forráskódokkal, eredményekkel, diagramokkal együtt egy publikusan elérhető GitHub repository-ban.
