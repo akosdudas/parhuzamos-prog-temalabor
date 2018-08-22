@@ -6,7 +6,7 @@ Implementáld le egy általad választott másik nyelven a mátrix szorzás algo
 
 Javasolt nyelvek:
 
-* Java, ExecutionService
+* Java, ExecutorService
 * Go nyelv
 * Haskel nyelv
 * C++, Threading Building Blocks vagy Parallel Patterns Library
