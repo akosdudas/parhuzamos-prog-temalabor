@@ -1,4 +1,4 @@
-# 1. feladat: mátrix szorzás
+# 1. feladat: mátrix szorzás C# nyelven
 
 ## Ajánlott olvasnivaló
 
