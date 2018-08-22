@@ -3,6 +3,7 @@
 ## Ajánlott olvasnivaló
 
 Divide and conquer ("oszd meg, és uralkodj elv"): http://reedcopsey.com/2010/02/26/parallelism-in-net-part-11-divide-and-conquer-via-parallel-invoke/
+
 Parallel merge sort algoritmus: http://www.drdobbs.com/parallel/parallel-merge-sort/229400239, https://stanford.edu/~rezab/classes/cme323/S16/notes/Lecture04/cme323_lec4.pdf
 
 ## Feladat
