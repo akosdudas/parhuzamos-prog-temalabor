@@ -4,8 +4,6 @@
 
 Daan Leijen, Wolfram Schulte, and Sebastian Burckhardt: The Design of a Task Parallel Library https://www.microsoft.com/en-us/research/wp-content/uploads/2009/09/TheDesignOfATaskParallelLibraryoopsla2009.pdf
 
-Divide and conquer ("oszd meg, és uralkodj elv"): http://reedcopsey.com/2010/02/26/parallelism-in-net-part-11-divide-and-conquer-via-parallel-invoke/
-
 ## Feladat
 
 ### Készíts egy C# nyelvű programot, amely
@@ -25,8 +23,8 @@ Divide and conquer ("oszd meg, és uralkodj elv"): http://reedcopsey.com/2010/02
 * Párhuzamos implementáció Thread / ThreadPool használatával, ahol a szálak együtt dolgoznak a feladaton
   * A szálak száma változtatható legyen
   * Minden szál egy jól meghatározott régiót (pl. egy sort, egy oszlopot, n*n-es darabot) készít el
-* Párhuzamos implementáció Task Parallel Library segítségével (pl. Parallel.Foreach)
-  * Ahelyett, hogy előre meghatároznánk, melyik szál milyen feladatrészt (mátrix darabot) dolgoz fel, a Taskok segítségével alkalmazzuk az "oszd meg, és uralkodj" elvet
+* Párhuzamos implementáció Task Parallel Library segítségével
+  * Használd a Parallel.Foreach-et a párhuzamosításhoz (ne használj se Thread-et, se ThreadPool-t)
 
 ### Elvárt eredmény
 
