@@ -12,18 +12,19 @@ Parallel merge sort algoritmus: http://www.drdobbs.com/parallel/parallel-merge-s
 
 * Konzol alkalmazás
 * Parancssori argumentumban kap egy számot, amely a rendezendő tömb mérete
+* Parancssori argumentumban megadható neki, hogy melyik algoritmust (lásd alább) használja
 * Inicializál véletlen integer számokkal egy megadott méretű tömböt
 * Elkezd időt mérni
-* Lefuttatja a rendezést
+* Lefuttatja a kiválasztott algoritmussal a rendezést
 * Konzolja kiírja a pontos futási időt
 
 ### Algoritmusok
 
 * Quicksort rendezés
-  * Fontos, hogy NE használd a .NET rendező függvényét, hanem fog egy egyszerzű, egyszálú quicksort algoritmust
+  * Fontos, hogy NE használd a .NET rendező függvényét, hanem keress/implementálj egy egyszerű, egyszálú quicksort algoritmust
   * Ez az összehasonlítási alap a párhuzamos implementációhoz
 * Párhuzamos implementáció parallel merge sort algoritmussal
-  * Használd a Task Parallel Library képességeit, mind a Parallel.Invoke vagy a Task.Run; ne használj explicit szálakat
+  * Használd a Task Parallel Library képességeit, mint a Parallel.Invoke vagy a Task.Run; ne használj explicit szálakat
   * Megvizsgálandó feladat, hogy meddig érdemes darabolni a feladatot párhuzamos részekre, és mikortól már nem érdemes további, kisebb egységekre osztani, hanem már végre kell hajtani a rendezést az adott szálon/taszban
 
 ### Elvárt eredmény

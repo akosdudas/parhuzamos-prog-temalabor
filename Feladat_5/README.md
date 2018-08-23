@@ -34,9 +34,13 @@ Használható más megközelítés is, de akkor egy dokumentációt is kérek a 
 
 * Konzol alkalmazás
 * Elindít pár végrehajtó szálat (darabszám az alkalmazás paramétere)
-* És elindít egy szálat, ami feladatokat termel véletlen időközönként, a feladatok színe is véletlen (egyenletes eloszlású)
+* Elindít egy szálat, ami feladatokat termel véletlen időközönként, a feladatok színe is véletlen (egyenletes eloszlású)
 * A feladat maga legyen egy hosszú for ciklus, nem kell értelmes feladatot csináljon, de használja ki a CPU-t
   * Pl. legyen a Fibonacci sorozat n-edik elemének kiszámolása, ahol az n egy véletlen nagy szám
+  * Sleep semmiképpen nem jó
+  * Legyünk benne biztosak, hogy a fordító nem optimalizálja ki az algoritmust azért, mert észreveszi, hogy az eredményt nem használjuk
+    * Pl. a kiszámolt értéket hasonlítsuk össze egy negatív számmal, és írjunk ki a konzolra egy szöveget egyezés esetén
+    * Mivel a Fibonacci soha nem lesz negatív, ezért a feltétel soha nem teljesül, de ezt a fordító nem tudja
 * Az ütemező pedig az adatstruktúra, aki a termelő szál és fogyasztó szálak között van
 
 ### Elvárt eredmény

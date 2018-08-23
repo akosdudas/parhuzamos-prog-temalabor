@@ -2,7 +2,7 @@
 
 ## Feladat
 
-Implementáld le egy általad választott másik nyelven a parallel merge sort rendezést. Használd ki a választott platform és nyevl képességeit a párhuzamos programozás terén.
+Implementáld le általad választott másik nyelven a parallel merge sort rendezést. Használd ki a választott platform és nyevl képességeit a párhuzamos programozás terén.
 
 Javasolt nyelvek:
 

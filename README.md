@@ -1,6 +1,6 @@
 # Párhuzamos programozás témalabor BME AUT
 
-A témalabor során kisfeladatok megoldásán keresztül ismerhető meg a párhuzamos programozás világa.
+A témalabor során kisfeladatok megoldásán keresztül ismerhető meg a párhuzamos programozás világa, a gyakori problémák és lehetséges megoldásaik.
 
 ## Ajánlott irodalom
 

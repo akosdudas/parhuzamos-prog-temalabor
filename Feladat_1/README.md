@@ -9,7 +9,7 @@ Daan Leijen, Wolfram Schulte, and Sebastian Burckhardt: The Design of a Task Par
 ### Készíts egy C# nyelvű programot, amely
 
 * Konzol alkalmazás
-* Parancssori argumentumban kap egy számot, amely az összeszorzandó mátrix mérete
+* Parancssori argumentumban kap egy számot, amely az összeszorzandó mátrixok mérete (négyzetes mátrix)
 * Parancssori argumentumban megadható neki, hogy melyik algoritmust (lásd alább) használja
 * Inicializál véletlen integer számokkal két megadott méretű négyzetes mátrixot
 * Elkezd időt mérni
