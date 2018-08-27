@@ -4,6 +4,8 @@
 
 Producer-consumer ("termelő-fogyasztó") probléma: https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem
 
+Technical writing (angol nyelven): https://ocw.mit.edu/courses/mechanical-engineering/2-000-how-and-why-machines-work-spring-2002/tools/technicalwriting_fixed.pdf
+
 ## Feladat
 
 A rendszerbe előre nem ismert feladatokat adnak be párhuzamosan termelők. A feladatokat pár fogyasztó dolgozza fel. A feladatok beérkezési ideje ill. végrehajtási ideje nem ismert. Az ütemező feladata a feladatok fogadása, és a fogyasztók számára mindig egy új feladat kiadása.
@@ -49,3 +51,9 @@ Használható más megközelítés is, de akkor egy dokumentációt is kérek a 
 * Teszt kód (pl. unit tesztek formájában), ami ellenőrzi a helyes viselkedés
 * Átbocsátóképesség vizsgálat: hány feladatot képes a rendszer adott időn belül "megoldani", változó paraméterek függvényében
   * Paraméter a fogyasztó szálak száma és a feladat színek száma
+* "Technical report" a megoldásról és a kiértékelésről
+  * Docx, pfd vagy markdown formátumban
+
+### Dokumentáció ("technical report")
+
+Szoftverfejlesztés során gyakran szükséges egy rendszer alapján, architektúráját, egy-egy kulcsfontosságú komponenst dokumentálni. A dokumentáció olyan minőségű kell legyen, hogy azt évekkel később is megértse bárki. A párhuzamos algoritmusok gyakran komplexek, a kód önmaga nem feltétlenül elég dokumentáció. Így a feladat része egy 2-3 oldalat "technical report" elkészítése, amely a megvalósítást és az eredményeket magyarázza. A dokumentáció lényege a helyes szerkezet és technikai nyelvezet használata (akár magyar, akár angol nyelven).
