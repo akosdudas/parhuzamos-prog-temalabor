@@ -17,7 +17,7 @@ Java: Runnable-ök és Executor service
 ## Feladatokkal kapcsolatos általános tanácsok
 
 * Mindig kapcsoljuk be a fordító optimalizációkat a teljesítmény méréshez
-  * Visual Studio-ban ez a "release" build configurávió használatát jelenti
+  * Visual Studio-ban ez a "release" build configuráció használatát jelenti
 * Teljesítmény alatt a program lényegi részének futási idejét értjük
 * Amikor teljesítményt mérünk, kellően nagy méretű feladatokat hasonlítsunk össze (pl. 15 és 18 millisec nem elég nagy különbség, hogy következtetést lehessen levonni)
 * Az időmérést mindig ismételjük meg legalább 5-ször, és az átlagot használjuk
@@ -27,4 +27,12 @@ Java: Runnable-ök és Executor service
 
 ## Feladatok beadása
 
-Összes feladat megoldása, forráskódokkal, eredményekkel, diagramokkal együtt egy publikusan elérhető GitHub repository-ban.
+Összes feladat megoldása, forráskódokkal, eredményekkel, diagramokkal együtt egy publikusan elérhető GitHub repository-ban. A beadás az adott feladat pusholását jelenti a megadott nap végéig.
+
+Határidők 2018 őszi félév:
+
+1. feladat: szeptember 30.
+2. feladat: október 14.
+3. feladat: október 28.
+4. feladat: november 11.
+5. feladat: december 2.

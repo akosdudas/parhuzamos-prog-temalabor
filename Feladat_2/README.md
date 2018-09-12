@@ -2,7 +2,7 @@
 
 ## Feladat
 
-Implementáld le általad választott másik nyelven a mátrix szorzás algoritmusait. Használd ki a választott platform és nyevl képességeit a párhuzamos programozás terén.
+Implementáld le általad választott másik nyelven a mátrix szorzás algoritmusait. Használd ki a választott platform és nyelv képességeit a párhuzamos programozás terén.
 
 Javasolt nyelvek:
 
