@@ -1,4 +1,4 @@
-# 3. feladat: tömb rendezés parallel merge sort alrogitmussal C# nyelven
+# 3. feladat: tömb rendezés parallel merge sort algoritmussal C# nyelven
 
 ## Ajánlott olvasnivaló
 
@@ -20,8 +20,8 @@ Parallel merge sort algoritmus: http://www.drdobbs.com/parallel/parallel-merge-s
 
 ### Algoritmusok
 
-* Quicksort rendezés
-  * Fontos, hogy NE használd a .NET rendező függvényét, hanem keress/implementálj egy egyszerű, egyszálú quicksort algoritmust
+* Quicksort/mergesort rendezés
+  * Fontos, hogy NE használd a .NET rendező függvényét, hanem keress/implementálj egy egyszerű, egyszálú quicksort vagy mergesort algoritmust
   * Ez az összehasonlítási alap a párhuzamos implementációhoz
 * Párhuzamos implementáció parallel merge sort algoritmussal
   * Használd a Task Parallel Library képességeit, mint a Parallel.Invoke vagy a Task.Run; ne használj explicit szálakat
